@@ -42,6 +42,7 @@ public class Navigation extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
+        jPanel3 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -128,12 +129,15 @@ public class Navigation extends javax.swing.JFrame {
         jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1500, 10, 20, 30));
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/navigation/profileBorder.png"))); // NOI18N
-        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 0, -1, 50));
+        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1550, 0, -1, 50));
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/navigation/whiteSquare.jpg"))); // NOI18N
-        jPanel2.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 0, -1, 50));
+        jPanel2.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(1550, 0, -1, 50));
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 0, 1630, 50));
+
+        jPanel3.setBackground(new java.awt.Color(51, 255, 255));
+        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 100, 60, 60));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -204,6 +208,7 @@ public class Navigation extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
     private javax.swing.JLabel lb_history;
     private javax.swing.JLabel lb_home;
     private javax.swing.JLabel lb_playlist;
